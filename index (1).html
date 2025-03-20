@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="container">
+        <div class="header">
+            <div class="date-time">
+                <div class="time">00:00:00</div>
+                <div class="date">Monday, January 1, 2024</div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search city...">
+                <button class="search-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="weather-display">
+            <div class="main-info">
+                <h1 class="city">City Name</h1>
+                <div class="temp-box">
+                    <img src="" alt="weather" class="weather-icon">
+                    <h2 class="temperature">0°C</h2>
+                </div>
+                <p class="weather-desc">Weather Description</p>
+            </div>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">💧</div>
+                    <div class="detail-info">
+                        <span>Humidity</span>
+                        <p class="humidity">0%</p>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">💨</div>
+                    <div class="detail-info">
+                        <span>Wind Speed</span>
+                        <p class="wind">0 km/h</p>
+                    </div
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
